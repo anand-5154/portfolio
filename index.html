@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AnandKrishna A Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+
+/*======================================
+//--//-->   ABOUT
+======================================*/
+body{
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+
+.skill-mf .progress {
+  /* background-color: #cde1f8; */
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+
+
+/* Animation styles */
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+
+#typing-animation:before {
+  content: "";
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+
+
+.ftco-navbar-light.scrolled .navbar-toggler {
+    border: none;
+    color: rgb(253 253 253) !important;
+    border-color: rgba(0, 0, 0, 0.5) !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 16px;
+	padding-left: 3%;
+    
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+
+
+/* project image zoom effect */
+
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+
+
+</style>
+
+
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand position-relative mt-" href="index.html">Anand</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Gallery</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+			  <li class="nav-item"><a href="#service-section" class="nav-link"><span>Services</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	       <div class="slider-item">
+	      	<div class="overlay"></div>
+	         <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+				<div style="
+				background-image:url(images/profile1.png);
+				background-size: cover;
+				background-position: center;
+				width: 500px;  /* Set the width */
+				height: 500px; /* Set the height to be the same as the width */
+				border-radius:5px; /* Makes the image round */
+				margin-bottom: 10%;
+			 "
+		>
+	          	 <div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth position-absolute" data-scrollax=" properties: { translateY: '20%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>AnandKrishna.A</span></h1>
+
+						<!-- Element to contain animated typing -->
+						<span id="typing-animation"></span>
+
+						<script>
+
+						// Initialize the typing animation
+						const typingAnimationElement = document.getElementById('typing-animation');
+
+						// Create an array of typing text
+						const typingTexts = [
+						'Studying mern stack  ',
+						'Dipoma in Computer Engineering  ',
+						,
+						];
+
+						// Create a function to display the typing animation for a given text
+						function playTypingAnimation(text) {
+						// Loop through each character and add it to the element
+						for (let i = 0; i < text.length; i++) {
+							setTimeout(() => {
+							typingAnimationElement.textContent += text[i];
+							}, i * 200); // Increase the delay to slow down the typing animation
+						}
+
+						// Once the animation is complete, reset the text and start over
+						setTimeout(() => {
+							typingAnimationElement.textContent = '';
+							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+						}, text.length * 200);
+						}
+
+						// Start the typing animation loop
+						playTypingAnimation(typingTexts[0]);
+
+						</script>
+
+						<br>
+						<br>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+		</div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+			<div class="row">
+				<div class="row d-flex align-items-stretch">
+				<!-- <div class="row d-flex"> -->
+					<div class="col-md-6 col-lg-5 col-12 d-flex">
+						<div class="img-about img d-flex align-items-stretch">
+							<div class="overlay">
+								<div class="row">
+									
+									<!-- Details next to profile image -->
+									<div class="col-sm-6 col-md-8 col-12 pl-4">
+									  <div class="about-info">
+										<p><span class="title-s">Name:&nbsp;&nbsp;AnandKrishna.A</p>
+										<p><span class="title-s">Studying:&nbsp;&nbsp;Mern_Stack</p>
+										<p><span class="title-s">Education:&nbsp;&nbsp;Diploma&nbsp;in&nbsp;Computer&nbsp;Engineering</p>
+										<p><span class="title-s">Address:&nbsp;&nbsp;Kasaragod,&nbsp;Kerala</p>
+									  </div>
+									</div>
+								  </div>
+
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-6 col-12 col-lg-7 pl-lg-5 pb-5 pl-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								
+								<h1 class="big">About</h1>
+								<h2 class="mb-4">About Me</h2>
+								
+								<p>I have a background in computer engineering. Currently, I'm expanding
+									my skill set by studying the MERN stack, which includes MongoDB, Express.js, React, and Node.js. I'm
+									passionate about web development and always eager to learn new technologies.
+				
+									I enjoy diving into complex problems and finding efficient solutions, which is why I’ve chosen to
+									specialize in the MERN stack. This has given me a strong foundation in both frontend and backend
+									development, and I'm excited to apply these skills in real-world projects.
+				
+									Thank you for taking the time to learn a bit about me! I'm looking forward to connecting and sharing
+									more about my interests and experiences.</p>
+								
+							</div>
+						</div>
+
+
+						<div class="counter-wrap ftco-animate d-flex mt-md-3">
+							<div class="text">
+								<p class="mb-4">
+									<span class="number" data-number="3">0</span> <span>+</span>
+									<span>&nbsp; Projects completed</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+
+
+	
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+			  <div class="col-md-7 col-12 heading-section text-center ftco-animate">
+				<h1 class="big big-2">Gallery</h1>
+				<h2 class="mb-4">Gallery</h2>
+				<p>Below are some images of the websites I had made</p>
+			  </div>
+			</div>
+			<div class="row d-flex">
+			  <div class="col-md-4 col-12 ">
+				  <div class="blog-entry justify-content-end">
+				  <a href="images/hotstr1.png" class="block-20 zoom-effect" style="background-image: url('images/hotstr1.png');">
+				  </a>
+				  
+				</div>
+			  </div>
+			  <div class="col-md-4 col-12">
+				  <div class="blog-entry justify-content-end">
+				  <a href="images/hotstr2.png" class="block-20 zoom-effect" style="background-image: url('images/hotstr2.png');">
+				  </a>
+				  
+				</div>
+			  </div>
+			  <div class="col-md-4 col-12">
+				  <div class="blog-entry">
+				  <a href="images/amzn1.png" class="block-20 zoom-effect" style="background-image: url('images/amzn1.png');">
+				  </a>
+				  
+				</div>
+			  </div>
+			</div>
+		
+			<!-- added justify-content-center to center align the last two projects -->
+			<div class="row d-flex justify-content-center">  
+				<div class="col-md-4 col-12">
+					<div class="blog-entry justify-content-end">
+					<a href="images/amzn2.png" class="block-20 zoom-effect" style="background-image: url('images/amzn2.png');">
+					</a>
+	
+				  </div>
+				</div>
+				<div class="col-md-4 col-12">
+					<div class="blog-entry justify-content-end">
+					<a href="images/amzn3.png" class="block-20 zoom-effect" style="background-image: url('images/amzn3.png');">
+					</a>
+					
+				  </div>
+				</div>
+				<div class="col-md-4 col-12">
+					<div class="blog-entry justify-content-end">
+					<a href="images/htstrrs1.png" class="block-20 zoom-effect" style="background-image: url('images/htstrrs1.png');">
+					</a>
+	
+				  </div>
+				  
+			 </div>
+		  </div>
+		  <div class="row d-flex justify-content-center">  
+			<div class="col-md-4 col-12">
+				<div class="blog-entry justify-content-end">
+				<a href="images/htstrrs2.png" class="block-20 zoom-effect" style="background-image: url('images/htstrrs2.png');">
+				</a>
+
+			  </div>
+			</div>
+			<div class="col-md-4 col-12">
+				<div class="blog-entry justify-content-end">
+				<a href="images/htstrrs3.png" class="block-20 zoom-effect" style="background-image: url('images/htstrrs3.png');">
+				</a>
+				
+			  </div>
+			</div>
+			  
+		 </div>
+	  </div>
+		</section>
+	
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 col-12 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p>Below are some project i had build using HTML,CSS,Javascript,Bootstrap,Media_Queries etc..</p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 col-12 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://anand-5154.github.io/hotstar-static-website/" class="block-20 zoom-effect" style="background-image: url('images/hotstar1.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://anand-5154.github.io/hotstar-static-website/">Hotstar Static Clone</a></h3>
+                <p>Static Clone Website of the homepage of Hotstar using HTML and CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://anand-5154.github.io/amazon-Static-Website/" class="block-20 zoom-effect" style="background-image: url('images/amazon.jpg');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://anand-5154.github.io/amazon-Static-Website/">Amazon Static Clone</a></h3>
+                <p>Static Clone Website of the homepage of Amazon using HTML and CSS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="https://anand-5154.github.io/hotstar-responsive/" class="block-20 zoom-effect" style="background-image: url('images/hotstar2.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="https://anand-5154.github.io/hotstar-responsive/">Hotstar Responsive Clone</a></h3>
+                <p>Responsive Clone Website of the homepage of Hotstar using HTML,CSS,Javascript,Media queries and Bootstrap5.3.3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	<br>
+		<!-- added justify-content-center to center align the last two projects -->
+		
+    </section>
+
+
+
+	<section class="ftco-section" id="service-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-6 col-12 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Services</h1>
+			  <h2 class="mb-4">Services</h2>
+			  <p>Offered Services</p>
+			</div>
+		  </div>
+		  <div class="row d-flex justify-content-center">
+			<div class="col-md-6 col-12">
+				<div class="blog-entry">
+				<a href="#contact-section" class="block-20 zoom-effect" style="background-image: url('images/service.jpg');">
+				</a>
+				<div class="text mt-3 float-right d-block justify-content-center">
+  
+				  <h3 class="heading">Static Website Development</h3>
+				  <h6><a href="#contact-section">click here to contact me</a></h6>
+				  
+				</div>
+			  </div>
+			</div>
+			
+			</div>
+		  </div>
+	  <br>
+		  <!-- added justify-content-center to center align the last two projects -->
+		  
+	  </section>
+
+	
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-6 col-12 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+	
+			  <form id="submit-form" method="POST" onsubmit="return validateForm()">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" name="name" placeholder="Your name.." style="width: 100%;">
+				<div id="nameError" class="error"></div>
+				<br><br><label for="lname">Email</label>
+				<input type="text" id="lname" name="email" placeholder="Your email.." style="width: 100%;">
+				<div id="emailError" class="error"></div>
+				<br><label for="country">Country</label>
+				<br><select id="country" name="color">
+					<option value="usa">India</option>
+				  <option value="australia">Australia</option>
+				  <option value="canada">Canada</option>
+				  <option value="usa">USA</option>
+				</select>
+				<br><label for="subject">Subject</label>
+				<br><textarea id="subject" name="message" placeholder="Write something.." style="height:170px; width: 100%;"></textarea>
+				<div id="messageError" class="error"></div>
+				<br><input type="submit" value="Submit" class="btn btn-primary py-3 px-4">
+			  </form>
+			</div>
+		  </div>
+		</div>
+
+        
+
+		  <div class="container">
+			<br>
+			<br>
+	
+				<br>
+					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate"><a href="https://wa.me/qr/WRZOBEZZBVUIJ1"><span class="fab fa-whatsapp"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.facebook.com/share/gDViF951H85rP1kn/?mibextid=qi2Omg"><span class="icon-facebook"></span></a></li>
+				      <li class="ftco-animate"><a href="https://www.instagram.com/anand._unni?igsh=MXNzcGJuYjZkdnN1bQ=="><span class="icon-instagram"></span></a></li>
+					</ul>
+				<br>
+		   </div>
+   </div>
+ </section>
+
+
+ 
+	
+    <footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-6 col-12">
+  
+			  <p>Copyright All rights reserved 2024</a></p>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script src="js/contact.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
